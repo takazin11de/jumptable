@@ -4,6 +4,7 @@
     #undef __cdecl
     #define __cdecl
     int __cdecl printf(const char *_Format,...);
+    // tcc.exe libtcc.dll lib/libtcc1-64.a
 
     #define LV(x) (&&L##x),
     #define LRS static void *labels[]={
